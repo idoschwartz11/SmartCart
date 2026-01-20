@@ -1,2 +1,0 @@
-# SmartCart
-Testing
