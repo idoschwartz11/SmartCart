@@ -1,0 +1,22 @@
+{
+  "name": "smartshoplist-etl",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:shufersal": "tsx src/runs/run_chain.ts shufersal",
+    "dev:all": "tsx src/runs/run_all.ts",
+    "lint": "echo 'add eslint later'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.6.1",
+    "p-limit": "^7.2.0",
+    "sax": "^1.4.1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.5.4"
+  }
+}
